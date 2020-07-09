@@ -32,8 +32,42 @@ a{
 }
 
 /* HEADER */
+.header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.header-utilus{
+display: flex;
+
+}
+
+.auth-nav {
+    
+    display: flex;
+}
+.auth-nav-item{
+    margin-right: 30px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 80px;
+}
 .menu-nav{
     display: flex;
+}
+.menu-nav-item:not(:last-child){
+    margin-right: 50px;
 }
 ul {
     list-style: none;
