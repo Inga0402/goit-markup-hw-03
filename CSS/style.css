@@ -23,7 +23,18 @@ body {
 a{
     text-decoration: none;
 }
+.container{
+    width:1630px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* HEADER */
+.menu-nav{
+    display: flex;
+}
 ul {
     list-style: none;
 }
