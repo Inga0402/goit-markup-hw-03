@@ -24,7 +24,7 @@ a{
     text-decoration: none;
 }
 .container{
-    width:1630px;
+    width:1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -96,7 +96,7 @@ ul {
 }
 .menu-nav .link {
     color: var(--primary-title-color);
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
 }
@@ -120,19 +120,22 @@ ul {
     }
 
 .service-btn{
+    
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
- 
+    align-items: flex-start;
     }
+   
       
 .button{
     color: var(--primary-title-color);
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
+    
     
      }
 
@@ -261,7 +264,18 @@ color: var(--primary-white-color);
 color: var(--primary-white-color);
 background-color: var(--accent-color);
 }
+/* portfolio */
+ .flex-container {
+    display:flex;
+    flex-wrap:wrap;
+  
+ }
+    
+/* .flex-element{
+width:calc(100%/3)
 
+}
+     */
 
 
 /* цвета web color: #2196F3; studio #000000;*/
