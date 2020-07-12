@@ -1,3 +1,19 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  .list{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+
+    }
 :root {
     --main-font: "Roboto", sans-serif;
     --primary-text-color:#757575;
@@ -49,9 +65,9 @@ display: flex;
 }
 
 .auth-nav {
-    
     display: flex;
 }
+
 .auth-nav-item{
     margin-right: 30px;
 }
@@ -118,33 +134,7 @@ ul {
 .auth-nav-item:focus {
     color: var(--accent-color);
     }
-
-.service-btn{
-    
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.87;
-    align-items: flex-start;
-    }
-   
-      
-.button{
-    color: var(--primary-title-color);
-    font-weight: 500;
-    line-height: 1.62;
-    text-align: center;
-    
-    
-     }
-
-.modal-btn:hover,
-.modal-btn:focus{
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    }
-    
+  
  .link {
     text-decoration: none;
  }
@@ -157,17 +147,58 @@ ul {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 200px;
 }
+.button{ 
+    color: var(--primary-title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.service-btn{
 
-
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 32px;
+    
+    }
+   
+      
 /* Section */
 .section-title{
     color: #212121;
     text-align: center;
 }
 /* Advantages */
+.advantage-list{
+    display: flex;
+    
+}
+.advantage-list .item{
+width: 270px;
+
+
+
+}
 .advantage-list .title{
+   
     color: var (--primary-title-color);
     font-family: Roboto;
     font-weight: bold;
@@ -182,7 +213,7 @@ ul {
     font-size: 14px;
     line-height: 1.7;
 }
-/* We-are-making */
+/* What-we-are-doing */
 .section-title-item{
     color: var(--primary-white-color);
     background: rgba(47, 48, 58, 0.8);
@@ -270,7 +301,51 @@ background-color: var(--accent-color);
     flex-wrap:wrap;
   
  }
-    
+ .modal-btn:hover,
+ .modal-btn:focus{
+     color: var(--primary-white-color);
+     background-color: var(--accent-color);
+     }
+
+.filter-list{
+    display:flex;
+   justify-content: center;
+    margin-top: 93px;
+    margin-bottom: 34px;
+
+   }
+   .filter-list-item:not(:last-child) {
+    margin-right: 8px;
+   
+      }
+
+   .modal-btn{
+    padding: 4px 22px;
+    border-radius: 4px;
+    border-color: var(--button-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1.6;
+    background-color: var(--button-background-color);
+    margin-bottom: 50px;
+
+   }
+
+
+   .portfolio-container{
+       width: 1230px;
+       padding-left: 15px;
+       padding-right: 15px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .flex-container{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   
+
 /* .flex-element{
 width:calc(100%/3)
 

@@ -16,7 +16,7 @@
         <nav class="navigation">
             <a class="logo" href="index.html"  lang="en"><span class="logo-accent"> Web </span> Studio</a>
         <ul class="menu-nav">
-            <li class="menu-nav-item"><a href="" class="link">Студия</a></li>
+            <li class="menu-nav-item"><a href="index.html" class="link">Студия</a></li>
             <li class="menu-nav-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
             <li class="menu-nav-item"><a href="" class="link">Контакты</a></li>
         </ul>
@@ -37,19 +37,23 @@
          <main>
     <!-- Портфолио -->
     
-     <section>  
+     <section class="portfolio"> 
+        <div class="container"> 
         <h1 hidden>Примеры работ</h1>
-         <ul class="filter-list">
-             <li><button type="button" class="modal-btn">Все</button></li>
-             <li><button type="button" class="modal-btn">Веб-сайты</button></li>
-             <li><button type="button" class="modal-btn">Приложения</button></li>
-             <li><button type="button" class="modal-btn">Дизайн</button></li>
-             <li><button type="button" class="modal-btn">Маркетинг</button></li>
+             <ul class="filter-list">
+             <li class="filter-list-item"><button type="button" class="modal-btn">Все</button></li>
+             <li class="filter-list-item"><button type="button" class="modal-btn">Веб-сайты</button></li>
+             <li class="filter-list-item"><button type="button" class="modal-btn">Приложения</button></li>
+             <li class="filter-list-item"><button type="button" class="modal-btn">Дизайн</button></li>
+             <li class="filter-list-item"><button type="button" class="modal-btn">Маркетинг</button></li>
          </ul>
-       
-         <ul class="portfolio">
+         </div>
+     </section>
+     <section class="portfolio-container">
+       <div class="flex-container">
+                   <ul>
              <li>
-                 <a href="">
+             <a href="">
                <img src="./images/projects/project_technokryak.jpg" alt="фото людей" width="370" height="294">
                <!-- <a href="" aria-label="Ссылка на Технокряк">Технокряк</a> -->
                <h2 class="title">Технокряк</h2>
@@ -58,8 +62,11 @@
                    Компании используют эту платформу для цифрового шпионажа 
                    и атак на защищённые сервера конкурентов</p>
                 </a>
+           
            </li>
-           <li>
+       
+        <li>
+            
             <a href="">
                <img src="./images/projects/project_poster_neworlean.jpg" alt="фото баскетболисты" width="370" height="294">
                <h2 class="title">Постер <span lang="en">Orlean vs Golden Star</span> </h2>
@@ -69,7 +76,10 @@
                    pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
                    maiores laborum minima esse exercitationem.</p>
                 </a>
+         
             </li>
+      
+        
            <li>
             <a href="">
                <img src="./images/projects/project_restourant_seafood.jpg" alt="лого ресторана" width="370" height="294" >
@@ -81,6 +91,7 @@
                 maiores laborum minima esse exercitationem.</p>
             </a>
            </li>
+        
            <li>
             <a href="">
                 <img src="./images/projects/project_prime.jpg" alt="лого ресторана" width="370" height="294" >
@@ -92,6 +103,7 @@
                     maiores laborum minima esse exercitationem.</p>
                 </a>
            </li>
+        
            <li>
             <a href="">
                 <img src="./images/projects/project_boxes.jpg" alt="коробки" width="370" height="294" >
@@ -103,6 +115,7 @@
                     maiores laborum minima esse exercitationem.</p>
                 </a>
            </li>
+       
            <li>
             <a href="">
                 <img src="./images/projects/project_website_inspiration.jpg" alt="монитор" width="370" height="294" >
@@ -114,6 +127,7 @@
                     maiores laborum minima esse exercitationem.</p>
                 </a>
            </li>
+        
            <li>
             <a href="">
                 <img src="./images/projects/project_limited_edition.jpg" alt="журнал" width="370" height="294" >
@@ -125,6 +139,7 @@
                     maiores laborum minima esse exercitationem.</p>
                 </a>
            </li>
+       
                    <li> 
             <a href="">
             <img src="./images/projects/project_lab.jpg" alt="лого" width="370" height="294" >
@@ -136,6 +151,7 @@
                 maiores laborum minima esse exercitationem.</p>
             </a>
            </li>
+        
            <li>
             <a href="">
             <img src="./images/projects/project_growing_business.jpg" alt="ноутбук" width="370" height="294" >
@@ -147,8 +163,10 @@
                 maiores laborum minima esse exercitationem.</p>
                 </a>
            </li>
+        
         </ul> 
     
+    </div>
         </section>
 
         </main>
