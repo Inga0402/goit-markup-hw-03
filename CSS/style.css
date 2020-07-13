@@ -151,8 +151,11 @@ ul {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 200px;
+    padding-top: 200px;
+    padding-bottom: 280px;
+  
 }
+
 .button{ 
     color: var(--primary-title-color);
     font-weight: 500;
@@ -161,12 +164,13 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+   
 }
 .service-btn{
-
     width: 200px;
     height: 50px;
-    display: inline-block;
+    display:block;
+    margin: auto;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -187,18 +191,18 @@ ul {
     text-align: center;
 }
 /* Advantages */
-.advantage-list{
+.advantages-list{
     display: flex;
-    
-}
-.advantage-list .item{
-width: 270px;
-
-
-
-}
-.advantage-list .title{
    
+}
+.advantages-list .item{
+width: 270px;
+}
+.advantages-item:not(:last-child){
+margin-right: 30px;
+}
+
+.advantages-list .advantages-title{
     color: var (--primary-title-color);
     font-family: Roboto;
     font-weight: bold;
@@ -207,11 +211,15 @@ width: 270px;
     text-transform: uppercase;
 
 }
-.advantage-list .text {
+.advantages-picture{
+    text-align: center;
+}
+.advantages-list .advantages-text {
     color: var(--primary-text-color);
     font-family: Roboto;
     font-size: 14px;
     line-height: 1.7;
+
 }
 /* What-we-are-doing */
 .section-title-item{
@@ -253,6 +261,26 @@ width: 270px;
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.87; 
+}
+/* Постоянные клиенты */
+ .clients-list{
+    display: flex;
+    justify-content: space-around;
+}
+.clients .container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.clients .section-title{
+    margin-bottom:50px;
+}
+.clients-item{
+    width: 170px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.clients-list{
+    margin: 30px;
 }
 
 /* Address footer */
@@ -344,12 +372,17 @@ background-color: var(--accent-color);
        align-items: stretch;
    }
    
-.ul-portfolio{
+/* .ul-portfolio{ 
     text-align: center;
     justify-content: space-between;
     overflow: hidden;
 }
+*/
+.ul-portfolio:nth-last-child(3n){
+margin: 0;
 
+
+}
 .ul-portfolio li h2, .ul-portfolio li p {
     padding-left: 24px;
     text-align: left;
@@ -357,11 +390,12 @@ background-color: var(--accent-color);
 .ul-portfolio p {
     margin-top: 9px;
     padding-bottom: 20px;
-       font-family: var(--main-font-family);
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
 }
+
 
 /* .flex-element{
 width:calc(100%/3)
