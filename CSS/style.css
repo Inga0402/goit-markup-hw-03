@@ -152,7 +152,7 @@ ul {
     text-align: center;
     margin-bottom: 30px;
     padding-top: 200px;
-   
+  
   
 }
 
@@ -164,7 +164,7 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    
+    padding-bottom: 200px;
 }
 .service-btn{
     width: 200px;
@@ -216,9 +216,11 @@ margin-right: 30px;
 }
 .advantages-picture{
     text-align: center;
+    padding-top: 25px;
     padding-bottom: 30px;
     background: #F5F4FA;
     border-radius: 4px;
+   
 }
 .advantages-list .advantages-text {
     color: var(--primary-text-color);
@@ -235,8 +237,7 @@ margin-right: 30px;
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
-   
-}
+   }
 .section-title{
     margin-top: 94px;
     margin-bottom: 50px;
@@ -259,25 +260,76 @@ justify-content: center;
 .what-we-are-doing-picture{
     width: 370px;
     height: 294px;
-  
-}
+  }
 
 /* Our Teams */
+
 .title-team-name {
     color: var(--primary-title-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-
+    margin-top: 30px;
 }
+
 .title-team-item{
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.our-team-list{
+    display: flex;
     
 }
+.our-team-item:not(:last-child){
+margin-right: 30px;
+}
+
+
+.social-links-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links-item:not(:last-child){
+margin-right: 10px;
+}
+
+
+/* Постоянные клиенты */
+.clients-list{
+    display: flex;
+  justify-content: center;
+    
+}
+.clients .container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.clients .section-title{
+    margin-bottom:50px;
+}
+.clients-item{
+    display: block;
+    width: 170px;
+    height: 90px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 19px;
+}
+.clients-item:not(:last-child){
+    margin-right: 30px;
+}
+
+
 
     /* Примеры работ */
  .title {
@@ -293,26 +345,7 @@ justify-content: center;
     font-size: 16px;
     line-height: 1.87; 
 }
-/* Постоянные клиенты */
- .clients-list{
-    display: flex;
-    justify-content: space-around;
-}
-.clients .container{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.clients .section-title{
-    margin-bottom:50px;
-}
-.clients-item{
-    width: 170px;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-.clients-list{
-    margin: 30px;
-}
+
 
 /* Address footer */
 .contacts-text {
@@ -354,6 +387,8 @@ color: var(--primary-white-color);
 color: var(--primary-white-color);
 background-color: var(--accent-color);
 }
+
+
 
 /* Портфолио */
   
