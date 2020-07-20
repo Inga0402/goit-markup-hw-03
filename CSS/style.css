@@ -377,24 +377,27 @@ margin-right: 10px;
     margin-right: 30px;
 }
 
-
-
     
 /* Logo footer */
 .logo-footer{
-    color: var(--primary-white-color);
+     color: var(--primary-white-color);
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
+    
 }
 .logo-footer:hover{
     color: var(--accent-color);
-
 }
+.logo-footer-address{
+    display: block;
+    margin-bottom: 20px;
+}
+
 /* Address footer */
 .footer{
+  
     background-color:var(--footer-background-color);
 }
 
@@ -405,6 +408,7 @@ margin-right: 10px;
    
 }
    .address-footer {
+    display: block;
     font-style: normal;
     justify-content: space-between;
     align-items: baseline;
