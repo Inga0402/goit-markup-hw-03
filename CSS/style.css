@@ -9,6 +9,10 @@ html {
     box-sizing: inherit;
    
     }
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
   .list{
     padding: 0px;
@@ -95,8 +99,10 @@ display: flex;
 .menu-nav-item:not(:last-child){
     margin-right: 50px;
 }
+
 ul {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
 }
 .logo{
     color: #000000 ;
@@ -192,6 +198,10 @@ ul {
       
 /* Section */
 .section-title{
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #212121;
     text-align: center;
     padding-top: 94px;
@@ -213,7 +223,7 @@ margin-right: 30px;
 }
 
 .advantages-title{
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .advantages-list .advantages-title{
     color: var (--primary-title-color);
@@ -227,7 +237,7 @@ margin-right: 30px;
 .advantages-picture{
     text-align: center;
     padding-top: 25px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     background: #F5F4FA;
     border-radius: 4px;
    
@@ -243,7 +253,7 @@ margin-right: 30px;
 .section-title-item{
     color: var(--primary-white-color);
     background: rgba(47, 48, 58, 0.8);
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
@@ -268,13 +278,13 @@ justify-content: center;
 
 .what-we-are-doing-picture{
     width: 370px;
-    height: 294px;
+    
   }
 
 /* Our Teams */
 .our-team{
     background: #F5F4FA;
-    padding-top: 186px;
+    
     
 }
 .title-team-name {
@@ -300,7 +310,6 @@ justify-content: center;
     
 }
 .our-team-item{
-    display: inline-block;
     width:270px;
 }
 .our-team-item:not(:last-child){
@@ -341,6 +350,7 @@ margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 94px ;
     
 }
 
@@ -377,7 +387,6 @@ margin-right: 10px;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-top: 60px;
     margin-bottom: 20px;
 }
 .logo-footer:hover{
@@ -411,6 +420,7 @@ margin-right: 10px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-right: 84px;
+    margin-top: 20px;
     align-items: baseline;
 }
 .contacts-list-item{
@@ -440,7 +450,7 @@ margin-right: 10px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-  
+    margin-bottom: 20px;
     text-align: center;
    
 }
@@ -457,6 +467,7 @@ background-color: var(--accent-color);
 .social-footer-links-list{
 display: flex;
 justify-content: space-around;
+margin-top: 20px;
 text-align: center;
 
 }
@@ -520,7 +531,7 @@ text-align: center;
   
  .works-item{ 
     /* border: 1px solid; */
-    width: calc((100%-30px*2)/3);
+    width: calc((100% - 30px * 2) / 3);
       margin-right: 30px;       
      margin-bottom: 30px;   
     
